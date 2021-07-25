@@ -38,6 +38,19 @@ body {
     width: 100%;
 }
 
+h1 {
+    margin-bottom: 40px;
+} 
+
+p {
+    line-height: 2;
+}
+
+.container {
+    height: 75vh;
+    padding: 50px;
+}
+
 .nav-menu {
     background-color: var(--header-bg);
     display: flex;
@@ -54,6 +67,10 @@ body {
     padding: 20px;
 }
 
+.navbar-item li a:hover{
+    color: var(--link-hover);
+}
+
 .author-title {
     padding: 40px;
 }
@@ -63,11 +80,32 @@ span {
 }
 
 .about-me-pic {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 200px;
-    height: 270px;
+    height: 320px;
+    margin-bottom: 30px;
 }
 
 .about-me-container {
     padding: 50px;
+    margin-left: 50px;
+}
+
+.about-me-container h1 {
+    padding: 20px;
+}
+
+.about-me-para {
+    width: 70%;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.social-icon a {
+    padding: 10px;
 }
