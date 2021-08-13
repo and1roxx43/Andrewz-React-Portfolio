@@ -1,46 +1,33 @@
 import React from 'react';
 import NavMenu from "./components/Navmenu";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from "./components/pages/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/pages/About";
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-import Footer from './components/Footer';
-
+import Footer from "../src/components/Footer"
 import './App.css';
 
 function App() {
   return (
-    <div>
+
+    <div className="app-container">
         
       <Router>
       
         <NavMenu />
     
         <Switch>
-        
-            <Route path="/about">
-                <About />
-            </Route>
-            <Route path="/portfolio">
-                <Portfolio />
-            </Route> 
-            <Route path="/contact">
-                <Contact />
-            </Route>
-            <Route path="/resume">
-                <Resume />
-            </Route> 
-            <Route path="/">
-                <Home />
-            </Route> 
+            <Route exact path="/" component={About} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
         </Switch>
 
       </Router>
-        
-      <Footer />
+       <Footer className="footer"/>
     </div>
+
   );
 }
 
