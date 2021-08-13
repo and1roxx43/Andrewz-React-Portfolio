@@ -23,12 +23,13 @@ body {
     background-color: var(--body);
     height: 100vh;
     width: 100%;
-    position: relative;
 }
 
-/* h1 {
-    margin-bottom: 40px;
-}  */
+h1 {
+    margin: 40px;
+    font-size: 2.5rem;
+    font-weight: 400;
+} 
 
 p {
     line-height: 2;
@@ -44,15 +45,12 @@ p {
     height: 100%;
     padding: 50px;
 }
-/* 
-.container h1{
-    margin-left: 100px;
-} */
 
 .nav-menu {
     background-color: var(--header-bg);
     display: flex;
     justify-content: space-between;
+    height: 150px;
 }
 
 .navbar-item {
@@ -71,7 +69,8 @@ p {
 }
 
 .author-title {
-    padding: 40px;
+    padding: 15px;
+    margin-left: 50px;
 }
 
 span {
@@ -84,31 +83,36 @@ span {
 }
 
 .about-me-pic {
+    border-radius: 50%;
     width: 200px;
-    /* height: 320px; */
     margin: 30px 100px;
 }
 
-.about-me-container.container {
+.app-container {
     text-align: center;
 }
-/* 
+
 .about-me-para {
-    font-size: 1.5rem;
-    width: 70%;
-    margin-left: 100px;
-} */
+    font-size: 1.2rem;
+    padding:20px;
+    width: 60%;
+    margin: auto;
+}
 
 .social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* position:absolute;
+    bottom: 0; */
 }
 
 .social-icon a {
     padding: 10px;
+    margin: 10px;
 }
+
 
 /* ----- Portfolio ----- */
 .portfolio-container {

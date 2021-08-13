@@ -15,8 +15,7 @@ function App() {
         
       <Router>
       
-        <NavMenu />
-    
+        <NavMenu className="navbar"/>
         <Switch>
             <Route exact path="/" component={About} />
             <Route path="/portfolio" component={Portfolio} />

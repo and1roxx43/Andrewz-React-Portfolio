@@ -16,7 +16,7 @@ export default function Footer() {
             <a href="https://linkedIn.com" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
         
             <a href="https://github.com" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-
+            
         </div>
 
     )
