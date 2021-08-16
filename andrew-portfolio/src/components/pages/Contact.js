@@ -25,11 +25,15 @@ export default function Contact() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
+        if(!email && !text && !pName) {
+            setErrorMessage("Fill in the form before submitting");
+            return;
+        }
         if(!validateEmail(email)) {
             setErrorMessage("Enter a valid email address");
             return;
         } else if(!text) {
-            setErrorMessage("Enter a name to submit form");
+            setErrorMessage("Enter a text to submit form");
             return;
         } else if (!pName) {
             setErrorMessage("Enter a name before continuing");
@@ -45,11 +49,12 @@ export default function Contact() {
     }
 
     return (
-        <div className="container">
+        <div className="contact-container">
             <h1>Contact</h1>
 
             <form>
                 <input 
+                className="input"
                 value={pName}
                 name="pName"
                 onChange={handleInputChange}
@@ -58,6 +63,7 @@ export default function Contact() {
                 />
 
                 <input 
+                className="input"
                 value={email}
                 name="email"
                 onChange={handleInputChange}
@@ -65,15 +71,18 @@ export default function Contact() {
                 placeholder="Email"
                 />
 
-                <input 
+                <textarea
+                className="input textarea"
                 value={text}
                 name="text"
                 onChange={handleInputChange}
                 type="text"
+                rows="8"
+                columns="10"
                 placeholder="Enter Message"
                 />
 
-                <button onClick={handleFormSubmit}>Submit</button>
+                <button className="btn" onClick={handleFormSubmit}>Submit</button>
             </form>
 
             {errorMessage && (

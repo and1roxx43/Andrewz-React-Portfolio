@@ -7,6 +7,8 @@
     --link-hover: #fff;
     --span-col: #5ea7e2;
     --btn-border: #fec107;
+    --btn-color: #4da5ee;
+    --btn-hover: #89c5f7;
 }
 
 *{
@@ -141,4 +143,50 @@ span {
 .portfolio-image ul {
     display: flex;
     justify-content: center;
+}
+
+
+/* ---- Contact ------ */
+
+.contact-container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.contact-container .input {
+    margin:5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact-container .textarea {
+    resize: none;
+}
+
+.contact-container .btn {
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding:10px 6px;
+    background-color: var(--btn-color);
+    width: 30%;
+}
+
+.contact-container .btn:hover {
+    background-color: var(--btn-hover);
+    cursor: grab;
+}
+
+.error-text {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
