@@ -1,12 +1,11 @@
 import React from "react";
+// import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faLinkedin,
-    faFacebook,
     faGithub,
   } from "@fortawesome/free-brands-svg-icons";
 
-export default function Footer() {
+export default function Social() {
     return(
         <div className="social-icon">
             
