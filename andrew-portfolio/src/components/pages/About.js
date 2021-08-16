@@ -1,4 +1,5 @@
 import React from "react";
+import myPic from "../../images/Andy.png"
 
 export default function About() {
     return (
@@ -12,13 +13,13 @@ export default function About() {
                     <p>Hello! I'm Andrew</p> 
                     <p>I am a Junior Web Developer &amp; Designer based in Melbourne, Victoria, Australia.</p>
                     <p>
-                        I'm specialised in front-end and  back-end web development using HTML, CSS, JavaScript, React Js.
+                        I'm specialised in front-end and back-end web development using HTML, CSS, JavaScript, React Js.
                     </p>
                     <p>When away from my computer screen, I spend my time either walking, exercising of all types, cooking, reading stuff about technology, watching TV, mainly documentaries and marvels.</p>
                     <p>Lately I've started practicing yoga.</p>
                 </div>
 
-                <img src="../images/Andy.png" alt="Andrew Quenette picture" className="about-me-pic" />
+                <img src={myPic} alt="Andrew Quenette picture" className="about-me-pic" />
             </div>
           
         </div>
