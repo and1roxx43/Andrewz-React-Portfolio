@@ -17,7 +17,7 @@ export default function About() {
                         I'm specialised in front-end and back-end web development using HTML, CSS, JavaScript, React Js.
                     </p>
                     <p>When away from my computer screen, I spend my time either walking, exercising of all types, cooking, reading stuff about technology, watching TV, mainly documentaries and marvels.</p>
-                    <p>Lately I've started practicing yoga.</p>
+                    <p>I also practice yoga to remain calm and relax.</p>
                 </div>
 
                 <img src={myPic} alt="Andrew Quenette picture" className="about-me-pic" />
