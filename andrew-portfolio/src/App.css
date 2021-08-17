@@ -115,6 +115,10 @@ span {
     width: 100%;
 }
 
+.icon:hover {
+    transform: scale(1.1);
+}
+
 .social-icon a {
     padding: 10px;
     margin: 10px;

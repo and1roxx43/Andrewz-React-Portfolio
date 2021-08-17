@@ -15,12 +15,12 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
                             <ul>
                                 <li>
                                     <a href={item.link1} target="_blank">
-                                        < FaGithub />
+                                        < FaGithub className="icon" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href={item.link2} target="_blank">
-                                        <FaGlobe />
+                                        <FaGlobe className="icon" />
                                     </a>
                                 </li>
                             </ul>
