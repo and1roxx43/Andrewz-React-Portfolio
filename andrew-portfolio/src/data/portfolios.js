@@ -62,6 +62,25 @@ const portfolios = [
         title: "weather app",
         text: "weather"
     },
+    {
+        id: 7,
+        category: "wecare",
+        image: wecare,
+        link1: "https://github.com/and1roxx43/weCare",
+        link2: "https://arcane-woodland-65594.herokuapp.com/",
+        title: "weCare app",
+        text: "wecare"
+    },
+    {
+        id: 8,
+        category: "tech-blog",
+        image: techBlog,
+        link1: "https://github.com/and1roxx43/tech_blog",
+        link2: "https://frozen-depths-90859.herokuapp.com/",
+        title: "tech-blog app",
+        text: "tech-blog"
+    }
+    
 
 ]
 
