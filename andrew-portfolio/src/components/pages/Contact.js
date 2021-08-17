@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import Heading from "../PageHeader";
 
 
 export default function Contact() {
+
+    function clearForm(){
+        setErrorMessage("");
+        setEmail("");
+        setPName("");
+        setText("");
+        //setAMessage("");
+    }
 
     const [pName, setPName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,6 +20,9 @@ export default function Contact() {
     const [aMessage, setAMessage] = useState("");
 
     const handleInputChange = (e) => {
+        setErrorMessage("");
+        setAMessage("");
+
         const { name: inputType, value: inputValue } = e.target;
 
         if(inputType === "email") {
@@ -41,16 +53,12 @@ export default function Contact() {
         } else {
             setAMessage(`Your message has been sent ${pName}`);
         }
-
-        setErrorMessage("");
-        setEmail("");
-        setPName("");
-        setText("");
+        clearForm();
     }
 
     return (
         <div className="contact-container">
-            <h1>Contact</h1>
+            <Heading heading={"Contact"} />
 
             <form>
                 <input 
@@ -103,3 +111,4 @@ export default function Contact() {
         </div>
     )
 }
+

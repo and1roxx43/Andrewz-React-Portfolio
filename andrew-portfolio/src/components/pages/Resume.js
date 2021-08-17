@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../PageHeader";
 
 
 export default function Resume() {
     return (
         <div className="container">
-            <h1>Resume</h1>
+            <Heading heading={"Resume"} />
         </div>
     )
 }

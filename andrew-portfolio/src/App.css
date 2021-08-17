@@ -37,7 +37,7 @@ p {
     line-height: 2;
 }
 
-.app-comtainer {
+.app-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -115,11 +115,17 @@ span {
 
 
 /* ----- Portfolio ----- */
+
+.portfolio-content {
+    position: relative;
+}
 .grid-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
 }
 
 .portfolio-image {
@@ -127,7 +133,8 @@ span {
 }
 
 .portfolio-image img{
-    border: rgb(205, 218, 217) solid 3px;
+    border: #cddad9 solid 3px;
+    border-radius: 5px;
     background-color: #c5d1d3;
     width: 350px;
     height: 200px;
@@ -171,6 +178,8 @@ span {
 }
 
 .contact-container .btn {
+    color: #fff;
+    font-size: 1.5rem;
     border:none;
     outline: none;
     border-radius: 5px;
