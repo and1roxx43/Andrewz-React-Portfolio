@@ -42,5 +42,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ![my_portfolio_Contact](https://user-images.githubusercontent.com/14179472/129671557-de965ff4-df5b-4f0b-8d30-029a2a806b84.png)
 
+![my_portfolio_Resume](https://user-images.githubusercontent.com/14179472/129671740-e5edded5-5626-45b7-8f9b-955128ba36e5.png)
+
 
 ## URL
