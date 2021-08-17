@@ -36,7 +36,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Screenshots
-
+![my_portfolio_About](https://user-images.githubusercontent.com/14179472/129671185-577852d2-2175-4017-90a4-3f1a9b2612f0.png)
 
 
 ## URL
