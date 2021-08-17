@@ -38,5 +38,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Screenshots
 ![my_portfolio_About](https://user-images.githubusercontent.com/14179472/129671185-577852d2-2175-4017-90a4-3f1a9b2612f0.png)
 
+![my_portfolio_Portfolio](https://user-images.githubusercontent.com/14179472/129671470-be9b3268-dc04-4071-bffa-d0c6c762c0b3.png)
+
+![my_portfolio_Contact](https://user-images.githubusercontent.com/14179472/129671557-de965ff4-df5b-4f0b-8d30-029a2a806b84.png)
+
 
 ## URL
