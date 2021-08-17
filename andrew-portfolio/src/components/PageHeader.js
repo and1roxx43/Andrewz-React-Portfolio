@@ -4,8 +4,8 @@ import React from "react";
 function Heading({heading}) {
 
     return (
-        <div>
-            <h1>{heading}</h1>
+        <div className="heading-title">
+            <h2>{heading}</h2>
         </div>
     )
 }

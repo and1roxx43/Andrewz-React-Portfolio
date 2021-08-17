@@ -45,7 +45,7 @@ export default function Contact() {
             setErrorMessage("Enter a valid email address");
             return;
         } else if(!text) {
-            setErrorMessage("Enter a text to submit form");
+            setErrorMessage("Enter a message to submit form");
             return;
         } else if (!pName) {
             setErrorMessage("Enter a name before continuing");

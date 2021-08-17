@@ -37,10 +37,16 @@ p {
     line-height: 2;
 }
 
-.app-container {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+.heading-title {
+    padding: 50px;
+    border-bottom: 5px solid lightgrey;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.heading-title h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 .container {
@@ -198,4 +204,20 @@ span {
     color: red;
     font-size: 1.2rem;
     font-weight: 500;
+}
+/* --- Resume --- */
+
+.resume-item {
+    padding: 5px 50px;
+}
+
+.resume-link {
+    font-size: 1rem;
+    font-weight: 400;
+} 
+.resume-front-end, .resume-back-end, .resume-download {
+    text-align: left;
+    margin: 20px auto;
+    width: 35%;
+    line-height: 2rem;
 }
